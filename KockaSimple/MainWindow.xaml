@@ -1,0 +1,20 @@
+﻿<Window x:Name="KockaSimple" x:Class="KockaSimple.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KockaSimple"
+        mc:Ignorable="d"
+        Title="KockaSimple" Height="219.186" Width="425.581">
+    <Grid x:Name="PocetTydnu">
+        <Label x:Name="lblPocetTydnu" Content="" HorizontalAlignment="Left" Margin="10,6,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblPocetKocek" Content="" HorizontalAlignment="Left" Margin="10,37,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblMnozstviMasaNaKocku" Content="" HorizontalAlignment="Left" Margin="10,68,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtPocetTydnu" HorizontalAlignment="Left" Height="23" Margin="288,9,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtPocetKocek" HorizontalAlignment="Left" Height="23" Margin="288,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtMnozstviMasaNaKocku" HorizontalAlignment="Left" Height="23" Margin="288,71,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="lblVystup" Content="" HorizontalAlignment="Left" Margin="10,146,0,0" VerticalAlignment="Top" Width="398"/>
+        <Button x:Name="btnSpocitejVysledek" Content="" HorizontalAlignment="Left" Margin="288,118,0,0" VerticalAlignment="Top" Width="120" Height="23" Click="BtnSpocitejVysledek_Click"/>
+
+    </Grid>
+</Window>
