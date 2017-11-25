@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:KockaSimple"
         mc:Ignorable="d"
-        Title="KockaSimple" Height="219.186" Width="425.581">
+        Title="KockaSimple" Height="219.186" Width="438.953">
     <Grid x:Name="PocetTydnu">
         <Label x:Name="lblPocetTydnu" Content="" HorizontalAlignment="Left" Margin="10,6,0,0" VerticalAlignment="Top"/>
         <Label x:Name="lblPocetKocek" Content="" HorizontalAlignment="Left" Margin="10,37,0,0" VerticalAlignment="Top"/>
